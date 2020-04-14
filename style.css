@@ -1,0 +1,45 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: url("./assets/pattern.png");
+}
+
+.main {
+	background: #ccc;
+	border-radius: 5px;
+	box-shadow: 0 0 5px navy;
+	width: 400px;
+	height: 180px;
+	margin: 120px auto;
+	padding: 24px;
+	position: relative;
+}
+
+.badge {
+	background: #e6635e;
+	color: #eee;
+	width: 104px;
+	padding: 6px 10px;
+	font-family: serif;
+	font-weight: bold;
+	border-radius: 3px;
+	box-shadow: 0 0 5px navy;
+	position: absolute;
+	top: -13px;
+	left: 39%;
+}
+
+.clock {
+	background: #ebebeb;
+	height: 100%;
+	border-radius: 5px;
+	box-shadow: 0 0 10px navy;
+	text-align: center;
+	font-size: 45px;
+	padding-top: 37px;
+	font-family: "Audiowide", cursive;
+}
